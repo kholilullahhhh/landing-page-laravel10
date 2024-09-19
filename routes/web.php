@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/form', function () {
-    return view('form');
+Route::get('/courses', function () {
+    return view('courses');
+});
+Route::get('/detail', function () {
+    return view('detail');
 });
